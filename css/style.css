@@ -1,0 +1,132 @@
+@font-face {
+ font-family: dinL;
+ src: url('../font/DIN-LightAlternate.otf');
+        
+}
+
+body{
+	background: url('../images/background/background.png');
+	font-family: dinL;
+	margin: 0px;
+	padding: 0px;
+}
+#content{
+	margin: auto;
+	width: 950px;
+	height: auto;
+}
+header{
+	float: left;
+	padding: 30px 0px 35px 40px;
+	width: 910px;
+	height: 72px;
+	border-bottom: 5px solid #fe9308;
+
+}
+header #identite {
+	float: left;
+	text-transform: uppercase;
+	width: 235px;
+	height: 72px;
+}
+header #identite #logo{
+	float: left;
+	width: 71px;
+	height: 71px;
+	background-color: #fe9308;
+	border-radius: 50%; 
+}
+header #identite h1{
+	float: left;
+	margin: 10px 0px 0px 10px;
+	color: #fe9308;
+	font-size: 25px;
+}
+header #identite h2{
+	float: left;
+	margin: 0px 0px 0px 10px;
+	color: #9f9e9e;
+	font-size: 18px;
+	font-weight: 100;
+	
+}
+header ul {
+	float : right;
+	margin-top: 10px;
+	list-style: none;
+}
+header ul li{
+	float:left;
+	padding: 15px 15px 22px 15px;
+	width: 96px;
+	border-left: 1px solid #b2b2b3;
+	color: #9f9e9e;
+	font-size: 12px;
+}
+header ul li a{
+	text-transform: uppercase;
+	font-style: 16px;
+	font-weight: bold;
+	display: block;
+	text-decoration: none;
+	color: #636161;
+}
+header ul li a:hover, header ul li a.selected{
+	color: #fe9308;
+}
+
+#slide{
+	width: 100%;
+	float: left;
+	border-top: 1px solid #8ac1d4;
+	background-color: #14546b;
+	border-bottom: 1px solid #8ac1d4;
+}
+#slide img{
+	padding-left: 90px;
+	padding-right: 90px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#main {
+	display: flex;
+	border-top: 5px solid #fe9308;
+	border-bottom: 5px solid #fe9308;
+	height: auto;
+	width : 100%;
+	background-color: pink;	
+	justify-content: space-around;
+	padding-top: 30px;
+	padding-left: 20px;
+
+}
+
+}
+#main .bloc {
+	width: 250px;
+	height: auto;
+	
+
+}
+#main .bloc img {
+	width: 279px ;
+	height: 145px ;
+}
+#main .bloc h1 {
+    margin: 10px 0px 5px 0px;
+    font-size: 20px;
+    color: #14546b;
+    }
+#main .bloc p  {
+    font-size: 12px;
+    color: #7b7a7a;
+    width: 280px;
+    text-align: justify;
+}
+
+#footer{
+	float: left;
+	background-color: green;
+	height: 247px;
+	width: 100%;
+}
